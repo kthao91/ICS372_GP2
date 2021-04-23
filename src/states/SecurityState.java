@@ -7,7 +7,6 @@ import events.NumberButtonEvent;
 import events.StayRequestEvent;
 import events.TimerRanOutEvent;
 import events.TimerTickedEvent;
-import events.WarningRequestEvent;
 import events.ZoneOneEvent;
 import events.ZoneThreeEvent;
 import events.ZoneTwoEvent;
@@ -53,10 +52,6 @@ public abstract class SecurityState {
     }
     
     public void handleEvent(StayRequestEvent event) {
-    	
-    }
-    
-    public void handleEvent(WarningRequestEvent event) {
     	
     }
     

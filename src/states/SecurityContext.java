@@ -134,8 +134,20 @@ public class SecurityContext {
     	display.showWarningTimeLeft(time);
     }
     
+    public void showWarningTimeLeft(int time, int number) {
+    	display.showWarningTimeLeft(time, number);
+    }
+    
     public void showPasscodeInfo() {
     	display.showPasscodeInfo();
+    }
+    
+    public void showPasscodeStayRedo(int value) {
+    	display.showPasscodeStayRedo(value);
+    }
+    
+    public void showPasscodeCancelRedo(int value) {
+    	display.showPasscodeCancelRedo(value);
     }
     
     public void showPasscode(int time) {
